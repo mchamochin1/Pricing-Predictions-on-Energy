@@ -16,14 +16,6 @@ We use the following data:
 * **Industrial production index**: it shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. **Industrial production comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/STS_INPR_M__custom_4288019/default/table?lang=en)**.
 * **GDP and main components(output, expenditure and income)**: it provides an overall picture of the economic situation and are widely used for economic analysis and forecasting, policy design and policy making. **GDP and main components comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/NAMQ_10_GDP__custom_4287774/default/table)**.
 
-
-
-
-
-The Biden Administration made a decision to stop importing oil from Russia, and that caused serious disruptions in the refining sector. Much of what we imported from Russia was either finished products or partially processed oil.
-
-The loss of Russian imports caused a disruption in gasoline supplies, and later diesel production during a period of high diesel demand. This all led to the highest weekly average diesel and gasoline prices ever in the U.S. These soaring energy prices were also a primary factor in inflation that rose to its highest level in 40 years.
-
 # Data Preparation
 
 # Modelling
@@ -31,6 +23,10 @@ The loss of Russian imports caused a disruption in gasoline supplies, and later 
 # Evaluation
 
 # Deployment
+
+# Conclusion
+
+The extent to which EU countries implement a strong and united policy response to the energy crisis will define the continent’s macroeconomic outlook for 2023. Should EU countries slip into energy nationalism, they will get higher energy prices and thus even higher inflation, higher interest rates and lower economic growth. In contrast, good policies in the form of an EU energy grand bargain would contain the direct impact of the energy crisis on households and firms and would stabilise inflation, reducing the need for further interest rate hikes and allowing an earlier recovery. Though avoiding recession is unlikely, making the right policy decisions will give Europe significant control over its short-term economic destiny.
 
 # Bibliography
 
