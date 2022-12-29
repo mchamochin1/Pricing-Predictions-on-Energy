@@ -2,20 +2,22 @@
 Predictions on producer energy prices across European Union countries.
 
 # Business Understanding
-Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy producer prices increase by 1% over 12 months causes, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro área for 2000-2022 (Darvas et al., 2022). Thus, producer energy prices are a predictor of what may show up in the economy in the coming months.
+Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy producer prices increase by 1% over 12 months cause, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro área for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
 
 In this way, the objective of this project is to predict producer energy prices in the EU, to provide some ligth on how the european economy will be in the future.
 
 # Data understanding
-
-The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** in 2020, during **the 2000..2022 period** on which we analyzes monthly information.
+The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** during **the 2000-2022 period**, analyzing monthly information.
 
 We use the following data:
-* Producer prices of energy for the 27 EU countries (EU27_2020). 
-* Producer prices of energy for each of the 27 EU countries. 
-*
+* **Producer prices of energy for the 27 EU countries (EU27_2020)**: producer prices are also known as output prices. We use the domestic output price for the energy sector, which measures the average price development of all goods and related services resulting from that sector and sold on the domestic market. We look for the statistical classification of the energy sector in the European Community (NACE Rev. 2), which is defined by the energy main industrial grouping (MIG_NRG). 
+* **Producer prices of energy for each of the 27 EU countries**: data info same as before.  **Producer prices data come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/sts_inppd_m/default/table?lang=en)**.
+* **Harmonised index of consumer prices for the 27 EU countries**: it is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households. **Harmonised index of consumer prices comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/EI_CPHI_M__custom_4287569/default/table?lang=en)**. 
+* **Industrial production index**: it shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. **Industrial production comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/STS_INPR_M__custom_4288019/default/table?lang=en)**.
+* **GDP and main components(output, expenditure and income)**: it provides an overall picture of the economic situation and are widely used for economic analysis and forecasting, policy design and policy making. **GDP and main components comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/NAMQ_10_GDP__custom_4287774/default/table)**.
 
-**Producer prices data come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/sts_inppd_m/default/table?lang=en)**. Producer prices are also known as output prices. I use the domestic output price for the energy sector, which measures the average price development of all goods and related services resulting from that sector and sold on the domestic market. I look for the statistical classification of the energy sector in the European Community (NACE Rev. 2), which is defined by the energy main industrial grouping (MIG_NRG).
+
+
 
 
 The Biden Administration made a decision to stop importing oil from Russia, and that caused serious disruptions in the refining sector. Much of what we imported from Russia was either finished products or partially processed oil.
