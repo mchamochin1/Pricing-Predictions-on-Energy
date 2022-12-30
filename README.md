@@ -32,6 +32,10 @@ Energy producer prices affect consumer prices and GDP. An energy producer increa
 
 The visualization of the energy producer prices in each country for 2022
 
+<p align="center">
+<img src="./images/Energy producer prices country 2022.png" alt="drawing" align="center" width="900"/>
+</p>
+
 # Modelling
 
 # Evaluation
