@@ -40,10 +40,14 @@ The visualization of the energy producer prices in each EU country for 2022 reve
 <img src="./images/European prices 2022.png" alt="drawing" align="center" width="500" />
 </p>
 
-<ul>
-    <li><img src="./images/Energy producer prices country 2022.png" alt="drawing" height="500" ></li>
-    <li><img src="./images/European prices 2022.png" alt="drawing" width="500"></li>
-</ul>
+<div class="row">
+   <div class="column">
+      <img src="./images/Energy producer prices country 2022.png" alt="drawing" height="500" >
+   </div>
+   <div class="column">
+      <img src="./images/European prices 2022.png" alt="drawing" width="500">
+   </div>
+</div>
 
 # Modelling
 
