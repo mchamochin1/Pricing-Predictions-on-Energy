@@ -6,6 +6,8 @@ The highest increase in industrial producer prices in the euro area was recorded
 
 Energy producer prices affect household energy and non-energy prices. An energy producer's increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro area for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
 
+Current energy crisis has stoked inflationary pressures and created a looming risk of recession, as well as a huge USD 2 trillion windfall for fossil fuel producers above their 2021 net income (IEA, 2022). Faced with energy shortfalls and high prices, governments have so far committed well over USD 500 billion, mainly in advanced economies, to shield consumers from the immediate impacts (IEA, 2022).
+
 After all the aforesaid, the objective of this project is to predict producer energy prices in the EU, to provide some light on how the European economy will be in the future.
 
 # Data preparation and understanding
@@ -112,7 +114,7 @@ We obtain the following metrics for our test sample:
 This provide us the following energy producer prices forecast for 2023:
 
 <p align="center">
-<img src="./images/Forecast XGBRegressor.png" alt="drawing" align="center" width="637"/>
+<img src="./images/Forecast XGBRegressor.png" alt="drawing" align="center" width="900"/>
 </p>
 
 The vertical red lines represent test and forecasted timelines.
@@ -131,13 +133,5 @@ Concerning the best prediction models for energy producer prices in Europe,  **S
 
 # Bibliography
 
-* *Darvas, Z., Le Mouel, M., Tagliapietra, S., Zettelmeyer, J. 2022. How European Union energy policies could mitigate the coming recession. Bruegel. https://www.bruegel.org/blog-post/how-european-union-energy-policies-could-mitigate-coming-recession-0*
-
--------------------
-
-* *Baldwin, E., Carley, S., Brass, J. N., & MacLean, L. M. 2016. Global renewable electricity policy: A comparative policy analysis of countries by income status. Journal of Comparative Policy Analysis: Research and Practice, 19(3): 277-298.*
-* *Carley, S. 2009. State renewable energy electricity policies: An empirical evaluation of effectiveness. Energy Policy, 37(8): 3071-3081.*
-* *Guterres, A. 2019. Remarks to high-level political forum on sustainable development. 24 September 2019, United Nations Secretary General.*
-* *Romano, A. A., & Scandurra, G. 2014. Investments in renewable energy sources in OPEC members: A dynamic panel approach. Metodoloski Zvezki, 11(2): 93-106.*
-* *Romano, A. A., Scandurra, G., Carfora, A., & Fodor, M. 2017. Renewable investments: The impact of green policies in developing and developed countries. Renewable and Sustainable Energy Reviews, 68: 738-747.*
-* *Sachs, J., Schmidt-Traub, G., Kroll, C., Lafortune, G., & Fuller, G. 2020. The sustainable development goals and COVID-19. Sustainable development report 2020. Cambridge: Cambridge University Press.*
+* *Darvas, Z., Le Mouel, M., Tagliapietra, S., Zettelmeyer, J. 2022. How European Union energy policies could mitigate the coming recession. Bruegel. https://www.bruegel.org/blog-post/how-european-union-energy-policies-could-mitigate-coming-recession-0. Accessed 28 December 2022.*
+* *International Energy Agency - IEA. 2022. World Energy Outlook 2022. https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf. Accessed 30 December 2022.*
