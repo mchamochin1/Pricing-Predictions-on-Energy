@@ -22,7 +22,7 @@ Concerning data collection and cleaning, data was loaded from the sources listed
 
 We observe producer prices of energy presents higher volatility compared with the others indicators. It exists correlation among energy producer prices and consumer prices (0.89), and energy producer prices and GDP (0.81). 
 
-Energy producer prices affect consumer prices and GDP. An energy producer increase in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro área for 2000-2022. We can observe a lagged effect among the different indicators in the following graph.
+Energy producer prices affect consumer prices and GDP. An energy producer increase in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro area for 2000-2022. We can observe a lagged effect among the different indicators in the following graph.
 
 <p align="center">
 <img src="./images/Indicators.png" alt="drawing" align="center" width="900"/>
@@ -55,7 +55,7 @@ We visualize the trend an seasonality evolution for energy producer prices TS us
 <img src="./images/Trend seasonality box plot.png" alt="drawing" align="center" width="637"/>
 </p>
 
-# Modelling
+# Modelling and evaluation
 We use the following models to predict producer energy prices across European Union countries.
 
 **TIME SERIES MODELS**
@@ -99,7 +99,7 @@ Some important events ocurred during the 2001-2009 period of our test sample:
 - 2008: Global Financial Crisis 
 - Crude oil reached an all time high of 147.27 in July of 2008.
 
-We also obtain good results using **Ensemble with StandardScaler, PCA and XGBRegressor**. We predict the producer energy prices using as predictors producer energy prices lag-1..lag-12. Our hyperparameters for:
+We also obtain good results using **Ensemble with StandardScaler, PCA and XGBRegressor**. To add seasonality to those models, you can convert the seasonality information into input variables. So, we predict the producer energy prices using as predictors producer energy prices lag-1..lag-12. Our hyperparameters for:
 * PCA: n_components = 2
 * xGBRegressor: n_estimators = 12, max_depth = 25, and learning_rate = 1
 
@@ -115,13 +115,19 @@ This provide us the following energy producer prices forecast for 2023:
 <img src="./images/Forecast XGBRegressor.png" alt="drawing" align="center" width="637"/>
 </p>
 
-# Evaluation
+The vertical red lines represent test and forecasted time lines.
 
-# Deployment
+Combining CNN with LSTM and RNN (SimpleRNN, GRU, and LSTM) have provided good results too. Whereas, Prophet and Amazon's DeepAR were not suitable at all.
+
 
 # Conclusion
 
-The extent to which EU countries implement a strong and united policy response to the energy crisis will define the continent’s macroeconomic outlook for 2023. Should EU countries slip into energy nationalism, they will get higher energy prices and thus even higher inflation, higher interest rates and lower economic growth. In contrast, good policies in the form of an EU energy grand bargain would contain the direct impact of the energy crisis on households and firms and would stabilise inflation, reducing the need for further interest rate hikes and allowing an earlier recovery. Though avoiding recession is unlikely, making the right policy decisions will give Europe significant control over its short-term economic destiny.
+Producer energy price is a predictor of what may show up in the economy in the coming months. Energy producer prices affect consumer prices and GDP. An energy producer increases in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro area for 2000-2022.
+We observe producer prices of energy presents high volatility in Europe. The highest energy producer prices volatility was in 2021 and 2022. In term of the trend, we observe the higher peak in 2022.
+
+Concerning the best prediction models for energy producer prices in Europe,  **SARIMAX** provided the best results, as the time series part is more present than the external variables part. The **Ensemble with StandardScaler, PCA and XGBRegressor** adding seasonality with time lagging provided also good results. **The prices of energy forecast reveal that prices will decrease in 2023**.
+
+**All this should consider the extent to which EU countries implement a strong and united policy response to the energy crisis**. A positive policy implementation would contain the direct impact of the producer energy price increase on households and firms and would stabilise inflation, reducing the need for further interest rate hikes and allowing an earlier recovery. 
 
 # Bibliography
 
