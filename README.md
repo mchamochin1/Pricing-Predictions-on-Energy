@@ -56,6 +56,32 @@ We visualize the trend an seasonality evolution for Energy producer prices TS us
 </p>
 
 # Modelling
+We use the following models to predict producer energy prices across European Union countries.
+
+**TIME SERIES MODELS**
+* CASE 1: SARIMA (Seasonal ARIMA) Model – Univariate Modelling
+* CASE 2: SARIMAX Adding external variables (X) to the SARIMA model – Multivariate Modelling
+
+**SUPERVISED MACHINE LEARNING MODELS**
+* CASE 3: Gradient Boosting with XGBoost
+* CASE 4: LightGBM model
+* CASE 5: Ensemble with StandardScaler, PCA and XGBRegressor
+
+**ADVANCED MACHINE AND DEEP LEARNING MODELS**
+* CASE 6: Combining CNN with Long Short-Term Memory (LSTM)
+* CASE 7: Recurrent Neural Networks (RNN): SimpleRNN, GRU, and LSTM
+
+   * CASE 7.1: RNN with one LTSM layer
+   * CASE 7.2: RNN with three-layer LSTM
+   * CASE 7.3: Gated Recurrent Unit (GRU) with 3 layers
+   * CASE 7.4: three layers of SimpleRNN
+
+* CASE 8: Prophet
+   * CASE 8.1: Prophet without Transformation
+   * CASE 8.2: Prophet with Box-Cox Transformation
+
+* CASE 9: Amazon's DeepAR
+
 
 # Evaluation
 
