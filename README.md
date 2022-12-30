@@ -30,6 +30,12 @@ Energy producer prices affect consumer prices and GDP. An energy producer increa
 <img src="./images/Indicators.png" alt="drawing" align="center" width="900"/>
 </p>
 
+The visualization of the european energy producer prices in the 2000-2022 period reveal the highest prices are reached in 2022.
+
+<p align="center">
+<img src="./images/European prices yearly.png" alt="drawing" align="center" width="510"/>
+</p>
+
 The visualization of the energy producer prices in each EU country for 2022 reveals the highest prices are reached in Denmark, Belgium, and Romania.
 
 <table><tr>
