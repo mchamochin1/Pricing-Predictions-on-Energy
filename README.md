@@ -12,20 +12,25 @@ After all the aforesaid, the objective of this project is to predict producer en
 We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** during **the 2000-2022 period**, analyzing monthly information.
 
 We use the following data based on the principles of cause and effect:
-* **Producer prices of energy for the 27 EU countries (EU27_2020)**: producer prices are also known as output prices. We use the domestic output price for the energy sector, which measures the average price development of all goods and related services resulting from that sector and sold on the domestic market. We look for the statistical classification of the energy sector in the European Community (NACE Rev. 2), which is defined by the energy main industrial grouping (MIG_NRG). **Producer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/sts_inppd_m/default/table?lang=en)**.
+* **Producer prices of energy for the 27 EU countries (EU27_2020)** (energy producer prices): producer prices are also known as output prices. We use the domestic output price for the energy sector, which measures the average price development of all goods and related services resulting from that sector and sold on the domestic market. We look for the statistical classification of the energy sector in the European Community (NACE Rev. 2), which is defined by the energy main industrial grouping (MIG_NRG). **Producer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/sts_inppd_m/default/table?lang=en)**.
 * **Producer prices of energy for each of the 27 EU countries**: data info same as before.  
-* **Harmonised index of consumer prices for the 27 EU countries**: it is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households. **Harmonised index of consumer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/EI_CPHI_M__custom_4287569/default/table?lang=en)**. 
-* **Industrial production index**: it shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. **Industrial production index comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/STS_INPR_M__custom_4288019/default/table?lang=en)**.
+* **Harmonised index of consumer prices for the 27 EU countries** (consumer price): it is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households. **Harmonised index of consumer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/EI_CPHI_M__custom_4287569/default/table?lang=en)**. 
+* **Industrial production index** (industrial production): it shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. **Industrial production index comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/STS_INPR_M__custom_4288019/default/table?lang=en)**.
 * **GDP and main components(output, expenditure and income)**: it provides an overall picture of the economic situation and are widely used for economic analysis and forecasting, policy design and policy making. **GDP and main components come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/NAMQ_10_GDP__custom_4287774/default/table)**.
 
 # Data Preparation
 
-## Data collection and cleaning
-- Data Source: Data has been loaded from the sources listed above.
-- Outliers: the outliers are not eliminated, they correspond mainly to the Nordic countries and Germany, potentially more aware of climate change and the energy transition.
-- Missings: imputations based on a linear regression are applied, with respect to the previous and subsequent years.
-Anomalies and errors: the values are controlled and they are in adequate ranges.
+Concerning data collection and cleaning, data was loaded from the sources listed above. Outliers were controlled but not deemed to be eliminated. Imputations were only performed on the GDP based on a linear regressions, as it was provided quarterly. The data values were controlled, they were in adequate ranges.
 
+We observe producer prices of energy presents higher volatility compared with the others indicators. It exists correlation among energy producer prices and consumer prices (0.89), and energy producer prices and GDP (0.81). 
+
+Energy producer prices affect consumer prices and GDP. An energy producer increase in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro área for 2000-2022
+
+Plots: in the classification, significant effects are detected between wealthy vs. unwealthy countries with some of the dependent variables. The variables SDG1, SDG3, SDG4, SDG7, SDG9 and SDG16 present more wealthy countries for their high values, while SDG13 and SDG3 present more wealthy countries in their low values.
+
+<p align="center">
+<img src="./images/indicators.png" alt="drawing" align="center" width="900"/>
+</p>
 
 # Modelling
 
