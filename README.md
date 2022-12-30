@@ -51,6 +51,12 @@ We check the Autocorrelation Function (ACF) and Partial Autocorrelation Function
 <img src="./images/autocorrelation.png" alt="drawing" align="center" width="350"/>
 </p>
 
+We visualize the trend an seasonality evolution for Energy producer prices TS using the Box Plot. We observe seasonality remains more or less contant, likely July and September show higher prices, and February and December lower prices. In term of the trend, we observe peaks in 2008, 2012, 2018 and 2022, presenting prices more volatility in 2021 and 2022.
+
+<p align="center">
+<img src="./images/Trend seasonality box plot.png" alt="drawing" align="center" width="637"/>
+</p>
+
 # Modelling
 
 # Evaluation
