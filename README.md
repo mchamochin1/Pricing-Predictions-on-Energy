@@ -29,7 +29,7 @@ Energy producer prices affect consumer prices and GDP. An energy producer increa
 Plots: in the classification, significant effects are detected between wealthy vs. unwealthy countries with some of the dependent variables. The variables SDG1, SDG3, SDG4, SDG7, SDG9 and SDG16 present more wealthy countries for their high values, while SDG13 and SDG3 present more wealthy countries in their low values.
 
 <p align="center">
-<img src="./images/indicators.png" alt="drawing" align="center" width="900"/>
+<img src="./images/Indicators.png" alt="drawing" align="center" width="900"/>
 </p>
 
 # Modelling
