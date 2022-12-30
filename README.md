@@ -8,7 +8,7 @@ Energy producer prices affect household energy and non-energy prices. An energy 
 
 After all the aforesaid, the objective of this project is to predict producer energy prices in the EU, to provide some ligth on how the european economy will be in the future.
 
-# Data understanding
+# Data preparation and understanding
 We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** during **the 2000-2022 period**, analyzing monthly information.
 
 We use the following data based on the principles of cause and effect:
@@ -17,8 +17,6 @@ We use the following data based on the principles of cause and effect:
 * **Harmonised index of consumer prices for the 27 EU countries** (consumer price): it is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households. **Harmonised index of consumer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/EI_CPHI_M__custom_4287569/default/table?lang=en)**. 
 * **Industrial production index** (industrial production): it shows the output and activity of the industry sector. It measures changes in the volume of output on a monthly basis. **Industrial production index comes from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/STS_INPR_M__custom_4288019/default/table?lang=en)**.
 * **GDP and main components(output, expenditure and income)**: it provides an overall picture of the economic situation and are widely used for economic analysis and forecasting, policy design and policy making. **GDP and main components come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/NAMQ_10_GDP__custom_4287774/default/table)**.
-
-# Data Preparation
 
 Concerning data collection and cleaning, data was loaded from the sources listed above. Outliers were controlled but not deemed to be eliminated. Imputations were only performed on the GDP based on a linear regressions, as it was provided quarterly. The data values were controlled, they were in adequate ranges.
 
