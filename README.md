@@ -2,12 +2,14 @@
 Predictions on producer energy prices across European Union countries.
 
 # Business Understanding
-Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy producer prices increase by 1% over 12 months cause, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro área for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
+The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. 
 
-In this way, the objective of this project is to predict producer energy prices in the EU, to provide some ligth on how the european economy will be in the future.
+Energy producer prices affect household energy and non-energy prices. An energy producer increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro área for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
+
+After all the aforesaid, the objective of this project is to predict producer energy prices in the EU, to provide some ligth on how the european economy will be in the future.
 
 # Data understanding
-The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** during **the 2000-2022 period**, analyzing monthly information.
+We concentrate the analysis on the data of the energy sector from the **27 European Union (EU) countries** during **the 2000-2022 period**, analyzing monthly information.
 
 We use the following data based on the principles of cause and effect:
 * **Producer prices of energy for the 27 EU countries (EU27_2020)**: producer prices are also known as output prices. We use the domestic output price for the energy sector, which measures the average price development of all goods and related services resulting from that sector and sold on the domestic market. We look for the statistical classification of the energy sector in the European Community (NACE Rev. 2), which is defined by the energy main industrial grouping (MIG_NRG). **Producer prices come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/sts_inppd_m/default/table?lang=en)**.
@@ -17,6 +19,13 @@ We use the following data based on the principles of cause and effect:
 * **GDP and main components(output, expenditure and income)**: it provides an overall picture of the economic situation and are widely used for economic analysis and forecasting, policy design and policy making. **GDP and main components come from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/NAMQ_10_GDP__custom_4287774/default/table)**.
 
 # Data Preparation
+
+## Data collection and cleaning
+- Data Source: Data has been loaded from the sources listed above.
+- Outliers: the outliers are not eliminated, they correspond mainly to the Nordic countries and Germany, potentially more aware of climate change and the energy transition.
+- Missings: imputations based on a linear regression are applied, with respect to the previous and subsequent years.
+Anomalies and errors: the values are controlled and they are in adequate ranges.
+
 
 # Modelling
 
