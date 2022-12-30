@@ -37,6 +37,14 @@ The visualization of the energy producer prices in each EU country for 2022 reve
 <td> <img src="./images/European prices 2022.png" alt="drawing" align="center" width="474"/> </td>
 </tr></table>
 
+We analyze if time series (TS) are stationary using Augmented Dickey-Fuller (ADF) and Hurst’s exponent test. These tests indicate TS are most likely non-stationary. We detrend energy producer prices by differencing it, but it continues being non-stationary. 
+
+We check Autocorrelation Function (ACF) and Partial Autocorrelation Functions (PACF) for Energy producer prices TS. We observe the presence of the trend,  the plot of the ACF shows that the coefficients are high for short lags, and they decrease linearly as the lag increases (an exponential drop). We don not perceive seasonality, as the plot do not display cyclical patterns (an sinusoidal).
+
+<p align="center">
+<img src="./images/autocorrelation.png" alt="drawing" align="center" width="350"/>
+</p>
+
 # Modelling
 
 # Evaluation
