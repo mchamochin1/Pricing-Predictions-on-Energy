@@ -6,7 +6,7 @@ The highest increase in industrial producer prices in the euro area was recorded
 
 Energy producer prices affect household energy and non-energy prices. An energy producer's increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro area for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
 
-Current energy crisis has stoked inflationary pressures and created a looming risk of recession, as well as a huge USD 2 trillion windfall for fossil fuel producers above their 2021 net income (IEA, 2022). Faced with energy shortfalls and high prices, governments have so far committed well over USD 500 billion, mainly in advanced economies, to shield consumers from the immediate impacts (IEA, 2022).
+Current energy crisis has stoked inflationary pressures and created a looming risk of recession, as well as a huge USD 2 trillion windfall for fossil fuel producers above their 2021 net income. Faced with energy shortfalls and high prices, governments have so far committed well over USD 500 billion, mainly in advanced economies, to shield consumers from the immediate impacts (IEA, 2022).
 
 After all the aforesaid, the objective of this project is to predict producer energy prices in the EU, to provide some light on how the European economy will be in the future.
 
@@ -33,7 +33,7 @@ Energy producer prices affect consumer prices and GDP. An energy producer's incr
 The visualization of the European energy producer prices in the 2000-2022 period reveal the highest prices are reached in 2022.
 
 <p align="center">
-<img src="./images/European prices yearly.png" alt="drawing" align="center" width="510"/>
+<img src="./images/European prices yearly.png" alt="drawing" align="center" width="900"/>
 </p>
 
 The visualization of the energy producer prices in each EU country for 2022 reveals the highest prices are reached in Denmark, Belgium, and Romania.
@@ -54,7 +54,7 @@ We check the Autocorrelation Function (ACF) and Partial Autocorrelation Function
 We visualize the trend and seasonality evolution for energy producer prices TS using the Box Plot. We observe seasonality remains more or less constant, likely July and September show higher prices, and February and December lower prices. In term of the trend, we observe peaks in 2008, 2012, 2018 and 2022, which correspond with other years of price shocks. The highest energy producer prices volatility was in 2021 and 2022.
 
 <p align="center">
-<img src="./images/Trend seasonality box plot.png" alt="drawing" align="center" width="637"/>
+<img src="./images/Trend seasonality box plot.png" alt="drawing" align="center"  width="900"/>
 </p>
 
 # Modelling and evaluation
