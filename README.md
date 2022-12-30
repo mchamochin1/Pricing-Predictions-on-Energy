@@ -24,13 +24,13 @@ Concerning data collection and cleaning, data was loaded from the sources listed
 
 We observe producer prices of energy presents higher volatility compared with the others indicators. It exists correlation among energy producer prices and consumer prices (0.89), and energy producer prices and GDP (0.81). 
 
-Energy producer prices affect consumer prices and GDP. An energy producer increase in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro área for 2000-2022
-
-Plots: in the classification, significant effects are detected between wealthy vs. unwealthy countries with some of the dependent variables. The variables SDG1, SDG3, SDG4, SDG7, SDG9 and SDG16 present more wealthy countries for their high values, while SDG13 and SDG3 present more wealthy countries in their low values.
+Energy producer prices affect consumer prices and GDP. An energy producer increase in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro área for 2000-2022. We can observe a lagged effect among the different indicators in the following graph.
 
 <p align="center">
 <img src="./images/Indicators.png" alt="drawing" align="center" width="900"/>
 </p>
+
+The visualization of the energy producer prices in each country for 2022
 
 # Modelling
 
