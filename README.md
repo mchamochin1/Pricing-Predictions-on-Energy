@@ -2,7 +2,7 @@
 Predictions on producer energy prices across European Union countries.
 
 # Business Understanding
-The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. 
+The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy is the most relevant component of rising consumer prices, accounting for almost half of total headline inﬂation (Pasimeni, 2022).
 
 Energy producer prices affect household energy and non-energy prices. An energy producer's increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro area for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
 
@@ -125,7 +125,7 @@ Combining CNN with LSTM and RNN (SimpleRNN, GRU, and LSTM) have provided good re
 # Conclusion
 
 Producer energy price is a predictor of what may show up in the economy in the coming months. Energy producer prices affect consumer prices and GDP. An energy producer increases in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro area for 2000-2022.
-We observe producer prices of energy presents high volatility in Europe. The highest energy producer prices volatility was in 2021 and 2022. In term of the trend, we observe the higher peak in 2022.
+We observe producer prices of energy presents substantial volatility in EU. The highest energy producer prices volatility occurred during in the years 2021 and 2022. In term of the trend, we observe the higher peak in 2022.
 
 Concerning the best prediction models for energy producer prices in Europe,  **SARIMAX** provided the best results, as the time series part is more present than the external variables part. The **Ensemble with StandardScaler, PCA and XGBRegressor** adding seasonality with time lagging provided also good results. **The prices of energy forecast reveal that prices will decrease in 2023**.
 
@@ -134,4 +134,5 @@ Concerning the best prediction models for energy producer prices in Europe,  **S
 # Bibliography
 
 * *Darvas, Z., Le Mouel, M., Tagliapietra, S., Zettelmeyer, J. 2022. How European Union energy policies could mitigate the coming recession. Bruegel. https://www.bruegel.org/blog-post/how-european-union-energy-policies-could-mitigate-coming-recession-0. Accessed 28 December 2022.*
-* *International Energy Agency - IEA. 2022. World Energy Outlook 2022. https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf. Accessed 30 December 2022.*
+* *International Energy Agency - IEA 2022. World Energy Outlook 2022. https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf. Accessed 30 December 2022.*
+* *Pasimeni, P. 2022. Supply or Demand, that is the Question: Decomposing Euro Area Inflation. Intereconomics, 57: 384-393.*
