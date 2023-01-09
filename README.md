@@ -1,12 +1,12 @@
 # Pricing-Predictions-on-Energy
-Predictions on producer energy prices across European Union countries.
+**Predictions on producer energy prices across European Union countries**.
 
 # Business Understanding
-The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy is the most relevant component of rising consumer prices, accounting for almost half of total headline inﬂation (Pasimeni, 2022).
+The highest increase in industrial producer prices in the euro area was recorded in the energy sector in 2022. Producer energy prices are an early indication of trends in consumer prices, which the European Central Bank want to keep at 2.0% in the medium term. Energy is the most relevant component of rising consumer prices, accounting for almost half of total headline inﬂation *(Pasimeni, 2022)*.
 
-Energy producer prices affect household energy and non-energy prices (Barnett et al., 2019). An energy producer's increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro area for 2000-2022 (Darvas et al., 2022). Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
+Energy producer prices affect household energy and non-energy prices *(Barnett et al., 2019)*. An energy producer's increase in the price by 1% over 12 months caused, household energy prices going up by 0.4% and household non-energy prices also going up by 0.04%, on average in the euro area for 2000-2022 *(Darvas et al., 2022)*. Thus, producer energy price is a predictor of what may show up in the economy in the coming months.
 
-Current energy crisis has stoked inflationary pressures and created a looming risk of recession, as well as a huge USD 2 trillion windfall for fossil fuel producers above their 2021 net income. Faced with energy shortfalls and high prices, governments have so far committed well over USD 500 billion, mainly in advanced economies, to shield consumers from the immediate impacts (IEA, 2022).
+Current energy crisis has stoked inflationary pressures and created a looming risk of recession, as well as a huge USD 2 trillion windfall for fossil fuel producers above their 2021 net income. Faced with energy shortfalls and high prices, governments have so far committed well over USD 500 billion, mainly in advanced economies, to shield consumers from the immediate impacts *(IEA, 2022)*.
 
 After all the aforesaid, the objective of this project is to predict producer energy prices in the EU, to provide some light on how the European economy will be in the future.
 
