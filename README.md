@@ -111,7 +111,7 @@ We obtain the following metrics for our test sample:
 * MAPE 0.0297
 * R2 Score 0.9738
 
-We want to perform **multi-step forecasting** to forecast the next 12 timesteps. Multi-step forecasting is that it is simply harder than single-step forecasting. This is because the more steps we extrapolate into the future, the more uncertainty we introduce in the predictions due to complex interactions between the different steps ahead. There are different techniques to multi-step forecasting. We use the **recursive strategy** for illustrative purposes only. Thus, we have trained a model to do one-step-ahead predictions, and then we do a recursive operation where we forecast one step ahead, use the new forecast to recalculate all the features such as lags, rolling windows, and so on, and forecast the next step. 
+We perform **multi-step forecasting** to forecast the next 12 timesteps. Multi-step forecasting is that it is simply harder than single-step forecasting. This is because the more steps we extrapolate into the future, the more uncertainty we introduce in the predictions due to complex interactions between the different steps ahead. There are different techniques to multi-step forecasting. We use the **recursive strategy** for illustrative purposes only. Thus, we have trained a model to do one-step-ahead predictions, and then we do a recursive operation where we forecast one step ahead, use the new forecast to recalculate all the features such as lags, rolling windows, and so on, and forecast the next step. 
 
 This provide us the following energy producer prices forecast for 2023:
 
@@ -127,9 +127,10 @@ Combining CNN with LSTM and RNN (SimpleRNN, GRU, and LSTM) have provided good re
 # Conclusion
 
 Producer energy price is a predictor of what may show up in the economy in the coming months. Energy producer prices affect consumer prices and GDP. An energy producer increases in the price by 1% promoted, consumer prices going up by 0.27% and GDP also going up by 0.17%, on average in the euro area for 2000-2022.
+
 We observe producer prices of energy presents substantial volatility in EU. The highest energy producer prices volatility occurred during in the years 2021 and 2022. In term of the trend, we observe the higher peak in 2022.
 
-Concerning the best prediction models for energy producer prices in Europe,  **SARIMAX** provided the best results, as the time series part is more present than the external variables part. The **Ensemble with StandardScaler, PCA and XGBRegressor** adding seasonality with time lagging provided also good results. **The prices of energy forecast reveal that prices will decrease in 2023**.
+Concerning the best prediction models for energy producer prices in Europe,  **SARIMAX** provided the best results, as the time series part is more present than the external variables part. The **Ensemble with StandardScaler, PCA and XGBRegressor** adding seasonality with time lagging provided also good results. We perform **multi-step forecasting** to forecast the next 12 timesteps, in particular we use the **recursive strategy**. **The prices of energy forecast reveal that prices will decrease in 2023**.
 
 **All this should consider the extent to which EU countries implement a strong and united policy response to the energy crisis**. A positive policy implementation would contain the direct impact of the producer energy price increase on households and firms and would stabilise inflation, reducing the need for further interest rate hikes and allowing an earlier recovery. 
 
