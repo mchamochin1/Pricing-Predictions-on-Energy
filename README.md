@@ -111,6 +111,8 @@ We obtain the following metrics for our test sample:
 * MAPE 0.0297
 * R2 Score 0.9738
 
+We want to perform **multi-step forecasting** to forecast the next 12 timesteps. Multi-step forecasting is that it is simply harder than single-step forecasting. This is because the more steps we extrapolate into the future, the more uncertainty we introduce in the predictions due to complex interactions between the different steps ahead. There are different techniques to multi-step forecasting. We use the **recursive strategy** for illustrative purposes only. Thus, we have trained a model to do one-step-ahead predictions, and then we do a recursive operation where we forecast one step ahead, use the new forecast to recalculate all the features such as lags, rolling windows, and so on, and forecast the next step. 
+
 This provide us the following energy producer prices forecast for 2023:
 
 <p align="center">
